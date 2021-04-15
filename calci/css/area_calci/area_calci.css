@@ -1,0 +1,37 @@
+body{
+	background: #ebf5fb;
+}
+h1{
+	color: #21618c;
+	text-align: center;
+}
+.radio_shape_type{
+	display: inline-block;
+	margin-left: 22%;
+}
+h2{
+	display: inline-block;
+	margin-left: 1%;
+	margin-top: 10%;
+	color: #2e86c1;
+}
+.show{
+	text-align: center;
+	color: #21618c;
+	border: solid #21618c;
+	font-size: 20px;
+	padding-top: .3%;
+	padding-bottom: .3%;
+	margin-top: 8%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+option{
+	background: #fdfefe;
+	color:  #2e86c1;
+	border: solid .4px #21618c;
+}
+.hide{
+	display: none;
+}

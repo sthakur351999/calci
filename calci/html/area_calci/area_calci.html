@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Area Calculator</title>
+	<link rel="stylesheet" type="text/css" href="../../css/area_calci/area_calci.css">
+	<script type="text/javascript" src="../../javascript/area_calci/area_calci.js"></script>
+</head>
+<body>
+	<h1>Area Calculator</h1>
+
+	<input type="radio" name="shape" class="radio_shape_type" onclick="show_2d_shapes()"><label><h2>Two Dimensional</h2></label>
+	<input type="radio" name="shape" class="radio_shape_type" onclick="show_3d_shapes()"><label><h2>Three Dimensional</h2></label>
+	
+	<select id="shape_2d" onchange="location = this.value;" class="hide">
+  	<option >Select 2-D Shape</option>
+  	<option></option>
+  	<option value="square.html">Square</option>
+  	<option value="rectangle.html">Rectangle</option>
+  	<option value="circle.html">Circle</option>
+  	<option value="rhombus.html">Rhombus</option>
+  	<option value="parallelogram.html">Parallelogram</option>
+  	<option value="triangle.html">Triangle</option>
+    <option value="trapezoid.html">Trapezoid</option>
+	</select> 
+
+	<select id="shape_3d" onchange="location = this.value;" class="hide">
+  	<option >Select 3-D Shape</option>
+  	<option></option>
+  	<option value="cube.html">Cube</option>
+  	<option value="cuboid.html">Cuboid</option>
+  	<option value="cylinder.html">Cylinder</option>
+  	<option value="cone.html">Cone</option>
+  	<option value="sphere.html">Sphere</option>
+	</select> 
+</body>
+</html>

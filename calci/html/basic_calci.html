@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Basic Calculator</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/basic_calci.css">
+	<script type="text/javascript" src="../javascript/basic_calci.js"></script>
+</head>
+<body>
+	<h1>Basic Calculator</h1>
+	<br>
+	<br>
+	<h1 id="result">Answer</h1>
+	<h2 id="fnumber" class="hide">0</h2>
+	<h1 id="series" class="series">0</h1>
+	<h2 id="fnumber" class="hide">0</h2>
+	<h2 id="sign" class="hide"></h2>
+	<h2 id="snumber" class="hide">0</h2>
+
+	<table border="1px">
+		<tr>
+			<td onclick="one(this)">1</td>
+			<td onclick="two(this)">2</td>
+			<td onclick="three(this)">3</td>
+			<td id="plus" onclick="plus(this)">+</td>
+		</tr>
+
+		<tr>
+			<td onclick="four(this)">4</td>
+			<td onclick="five(this)">5</td>
+			<td onclick="six(this)">6</td>
+			<td id="minus" onclick="minus(this)">-</td>
+		</tr>
+
+		<tr>
+			<td onclick="seven(this)">7</td>
+			<td onclick="eight(this)">8</td>
+			<td onclick="nine(this)">9</td>
+			<td id="mul" onclick="mul(this)">*</td>
+		</tr>
+
+		<tr>
+			<td onclick="clr()">clr</td>
+			<td onclick="zero(this)">0</td>
+			<td onclick="answer()">=</td>
+			<td id="div" onclick="div(this)">/</td>
+		</tr>
+	</table>
+</body>
+</html>

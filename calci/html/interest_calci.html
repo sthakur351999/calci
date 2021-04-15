@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Interest Calculator</title>
+	<link rel="stylesheet" type="text/css" href="../css/interest_calci.css">
+	<script type="text/javascript" src="../javascript/interest_calci.js"></script>
+</head>
+<body>
+	<h1>Interest Calculator</h1>
+	<br><br>
+	<h1 id="interest">Interest</h1>
+	<h1 id="amount">Amount</h1>
+	<h2>Principal</h2>
+	<h2>Rate</h2>
+	<h2>Time</h2>
+	<input id="p" class="input_prt">
+	<input id="r" class="input_prt">
+	<input id="t" class="input_prt">
+	<input id="si" type="radio" name="interest" class="radio_interest" onclick="hide_time_type()">
+	<label><h3>Simple Interest</h3></label>
+	<input id="ci" type="radio" name="interest" class="radio_interest" onclick="show_time_type()">
+	<label><h3>Compound Interest</h3></label>
+	<input id="yearly"type="radio" name="time_type" class="hide">
+	<label><h4 id="h4_yearly" class="hide">Yearly</h4></label>
+	<input id="half_yearly" type="radio" name="time_type" class="hide">
+	<label><h4 id="h4_half_yearly" class="hide">Half Yearly</h4></label>
+	<input id="quaterly" type="radio" name="time_type" class="hide">
+	<label><h4 id="h4_quaterly" Class="hide">Quaterly</h4></label>
+	<button onclick="answer()">Calculate</button>
+</body>
+</html>

@@ -1,0 +1,221 @@
+@media (min-width: 320px) and (max-width: 849px) {
+
+body{
+	background: #ebf5fb;
+}
+
+h1{
+	color: #21618c;
+	text-align: center;
+}
+
+img{
+	width: 100%;
+}
+
+nav{
+	background: #85c1e9;
+	text-align: center;
+	padding: 5%;
+}
+
+nav a{
+	font-size: 1.3em;
+	background: #2e86c1;
+	color:  #fdfefe;
+	padding:1.5%;
+	border-radius: 20%;
+	margin: 2%;
+	border: solid #fdfefe;
+	text-decoration: none;
+	display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	transition-duration: 1s;
+	transition-property: color, background, border, transform, padding;
+}
+
+nav a:hover{
+	background: #fdfefe;
+	color: #2e86c1;
+	border: solid #2e86c1;
+	padding: 4%;
+}
+
+h2{
+	color: #2874a6;
+	text-align: center;
+}
+
+.coronavirus_logo{
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+.Symptoms_logo{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+.Prevention_logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+h3{
+	color: #2e86c1;
+}
+
+h4{
+	 color: #3498db;
+	 font-style: italic;
+	}
+
+.back_to_top{
+	text-align: center;
+	font-size: 1.3em;
+	background: #2e86c1;
+	color:  #fdfefe;
+	padding:0.5%;
+	border-radius: 10%;
+	margin: 4%;
+	border: solid #21618c ;
+	text-decoration: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+ }
+
+hr{
+	color: #3498db;
+}
+
+footer{
+	text-align: center;
+}
+
+footer h3{
+	color: #21618c;
+}
+}
+
+
+@media (min-width: 850px) {
+
+body{
+	background: #ebf5fb;
+}
+
+h1{
+	color: #21618c;
+	text-align: center;
+}
+
+img{
+	width: 100%;
+}
+
+nav{
+	background: #85c1e9;
+	text-align: center;
+	padding: 2%;
+}
+
+nav a{
+	font-size: 1.3em;
+	background: #2e86c1;
+	color:  #fdfefe;
+	padding:1.5%;
+	border-radius: 20%;
+	margin: 2%;
+	border: solid #fdfefe;
+	text-decoration: none;
+	display: inline-block;
+	transition-duration: 1.5s;
+	transition-property: color, background, border, transform;
+}
+
+nav a:hover{
+	background: #fdfefe;
+	color: #2e86c1;
+	border: solid #2e86c1;
+	transform: rotate(360deg);
+}
+
+h2{
+	color: #2874a6;
+}
+
+.coronavirus_logo{
+	width: 30%;
+	display: inline-block;
+	padding-right: 2%;
+}
+
+.About{
+	width: 60%;
+	display: inline-block;
+}
+
+.Symtoms{
+	width:30%;
+	display: inline-block;
+}
+.Symptoms_logo{
+	width:60%;
+	padding-left: 2%;
+	display: inline-block;
+}
+.Prevention_logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+h3{
+	color: #2e86c1;
+}
+
+h4{
+	 color: #3498db;
+	 font-style: italic;
+	}
+
+.back_to_top{
+	text-align: center;
+	font-size: 1.3em;
+	background: #2e86c1;
+	color:  #fdfefe;
+	padding:0.5%;
+	border-radius: 10%;
+	margin: 4%;
+	border: solid #21618c ;
+	text-decoration: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+  
+}
+
+hr{
+	color: #3498db;
+}
+
+footer{
+	text-align: center;
+}
+
+footer h3{
+	color: #21618c;
+}
+}
